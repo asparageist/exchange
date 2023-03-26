@@ -1,8 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>dat title tho</title>
+  <title>Exchange Rate Calculator</title>
+  <link href="css/styles.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('../img/exchangebg.png');
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      background-size: contain;
+      background-position: center;
+    }
+  </style>
 </head>
 <body>
+  <form id="userInfo">
+    <h1>How much ya got?</h1>
+    <label for="inputNumber">Please enter what you'd like to exchange.</label><br/><br/>
+    <input id="inputNumber" type="text" name="inputNumber"><br/><br/>
+    <select name="currencies" id="select">
+      <option value="">--Please choose an option--</option>
+      <option value="mexico">Mexican Pesos</option>
+      <option value="canada">Canadian Dollars</option>
+      <option value="japan">Japanese Yen</option>
+      <option value="russia">Russian Ruples</option>
+      <option value="scotland">Scotish Pounds</option>
+  </select><br/><br/>
+  <button type="submit">Presto Change-o</button><br/><br/>
 </body>
 </html>
