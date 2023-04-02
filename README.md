@@ -15,6 +15,10 @@
 - webpack
 - Babel
 
+## Application Description:
+
+_The Exchange Rate Calculator will calculate a user's amount of currency to 5 different foreign rates by accessing an API from exchangerate-api.com._
+
 ## Setup/Installation Requirements
 
 - _Install all packages in the root folder:_
@@ -31,6 +35,10 @@
 - @babel/plugin-transform-modules-commonjs@7.18.6 --save-dev
 - jest@24.9.0 --save-dev
 - add "test" : "jest" to scripts in package.json
+
+## Known Bugs
+
+_just about everything_
 
 ## License
 
